@@ -7,7 +7,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "user")
-public class User implements Serializable {
+public abstract class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -73,6 +73,8 @@ public class User implements Serializable {
     public boolean isEnabled() {
         return enabled;
     }
+
+    public abstract String getUserName();
 
     public boolean isAccountNonExpired() {
         return accountNonExpired;
