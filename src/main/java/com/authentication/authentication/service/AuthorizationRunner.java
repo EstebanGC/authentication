@@ -10,6 +10,5 @@ public class AuthorizationRunner {
     public static void main(String[] args) {
         SpringApplication.run(AuthorizationRunner.class, args);
         System.out.println("Auth server started ..... ");
-        System.out.println("I don't know what to say ..... ");
     }
 }
