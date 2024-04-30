@@ -10,5 +10,6 @@ public class AuthorizationRunner {
     public static void main(String[] args) {
         SpringApplication.run(AuthorizationRunner.class, args);
         System.out.println("Auth server started ..... ");
+        System.out.println("Saying whatever just to upload something ... ");
     }
 }
